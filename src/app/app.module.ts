@@ -15,6 +15,7 @@ import { ProductService } from './product.service';
     ProductDescriptionComponent,
 
 
+
   ],
   imports: [
     BrowserModule,
