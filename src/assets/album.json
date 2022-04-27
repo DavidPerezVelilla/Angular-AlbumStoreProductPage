@@ -1,19 +1,138 @@
-{
-  "id": 1,
-  "artist": "The Prependers",
-  "album": {
-    "name": "Opacity Zero",
-    "releaseDate": "September 25, 2014",
-    "coverImage": "assets/opacity-zero.jpg",
-    "tracks": [
-      {"trackNumber": 1, "trackName": "The Last", "trackLength": "4:48", "trackPrice": 0.99 },
-      {"trackNumber": 2, "trackName": "Downtown", "trackLength": "3:13", "trackPrice": 0.99 },
-      {"trackNumber": 3, "trackName": "Yellow Carpet", "trackLength": "3:42", "trackPrice": 0.99 },
-      {"trackNumber": 4, "trackName": "Rocket to Mars", "trackLength": "4:31", "trackPrice": 0.99 },
-      {"trackNumber": 5, "trackName": "Walk, not Run", "trackLength": "2:53", "trackPrice": 0.99 },
-      {"trackNumber": 6, "trackName": "Design", "trackLength": "5:12", "trackPrice": 0.99 },
-      {"trackNumber": 7, "trackName": "Shopping Cart", "trackLength": "9:07", "trackPrice": 0.99 },
-      {"trackNumber": 8, "trackName": "Our Gift to You", "trackLength": "3:59", "trackPrice": 0.99 }
-    ]
+[
+  {
+    "id": 1,
+    "artist": "The Prependers",
+    "album": {
+      "name": "Opacity Zero",
+      "releaseDate": "September 25, 2014",
+      "coverImage": "assets/opacity-zero.jpg",
+      "tracks": [
+        {
+          "trackNumber": 1,
+          "trackName": "The Last",
+          "trackLength": "4:48",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 2,
+          "trackName": "Downtown",
+          "trackLength": "3:13",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 3,
+          "trackName": "Yellow Carpet",
+          "trackLength": "3:42",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 4,
+          "trackName": "Rocket to Mars",
+          "trackLength": "4:31",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 5,
+          "trackName": "Walk, not Run",
+          "trackLength": "2:53",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 6,
+          "trackName": "Design",
+          "trackLength": "5:12",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 7,
+          "trackName": "Shopping Cart",
+          "trackLength": "9:07",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 8,
+          "trackName": "Our Gift to You",
+          "trackLength": "3:59",
+          "trackPrice": 0.99
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "artist": "Franz Ferdinand",
+    "album": {
+      "name": "Franz Ferdinand",
+      "releaseDate": "February 9, 2004",
+      "coverImage": "assets/franzferdinandlp.jpg",
+      "tracks": [
+        {
+          "trackNumber": 1,
+          "trackName": "Jacqueline",
+          "trackLength": "3:49",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 2,
+          "trackName": "Tell her tonight",
+          "trackLength": "2:18",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 3,
+          "trackName": "Take me out",
+          "trackLength": "3:57",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 4,
+          "trackName": "The dark of the matinee",
+          "trackLength": "4:04",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 5,
+          "trackName": "Auf Achse",
+          "trackLength": "4:20",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 6,
+          "trackName": "Cheating on you",
+          "trackLength": "2:37",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 7,
+          "trackName": "This fire",
+          "trackLength": "4:15",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 8,
+          "trackName": "Darts of pleasure",
+          "trackLength": "3:00",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 9,
+          "trackName": "Michael",
+          "trackLength": "3:21",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 10,
+          "trackName": "Come on home",
+          "trackLength": "3:47",
+          "trackPrice": 0.99
+        },
+        {
+          "trackNumber": 11,
+          "trackName": "40'",
+          "trackLength": "3:24",
+          "trackPrice": 0.99
+        }
+      ]
+    }
   }
-}
+]

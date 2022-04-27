@@ -1,6 +1,14 @@
-<ul>
-  <li *ngFor=" let product of products">
-    <a routerLink="/product/{{product.id}}" routerLinkActive="active">{{product.albumName}}</a>
-    <!--<a [routerLink]="`/product/${product.id}`" routerLinkActive="active">{{product.albumName}}</a>-->
-  </li>
-</ul>
+<div class="nav">
+  <ul>
+    <li><a>Albums</a></li>
+    <li *ngFor="let product of products">
+      <a routerLink="/product/{{ product.id }}" routerLinkActive="active">{{
+        product.albumName
+      }}</a>
+      <!--<a [routerLink]="`/product/${product.id}`" routerLinkActive="active">{{product.albumName}}</a>-->
+    </li>
+  </ul>
+</div>
+<div>
+  <app-product-page></app-product-page>
+</div>
