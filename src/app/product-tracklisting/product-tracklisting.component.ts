@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Album } from '../album';
 import { ProductService } from '../product.service';
 
@@ -9,12 +10,22 @@ import { ProductService } from '../product.service';
 })
 export class ProductTracklistingComponent implements OnInit {
 
-  albumInfo: Album;
+  id:string;
+  albumInfo: Album[];
 
-  constructor(private _productService: ProductService) { }
+  constructor(private _productService: ProductService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    return this._productService.getAlbum(1).subscribe(response => this.albumInfo = response)
-  }
 
+
+    this.id = this.route.snapshot.paramMap.get('id');
+    if(this.id == '1'){
+      this.id = '0';
+    }else{
+      this.id = '1';
+    }
+
+    return this._productService.getAlbum().subscribe(response => this.albumInfo = response);
+
+  }
 }

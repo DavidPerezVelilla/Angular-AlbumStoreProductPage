@@ -1,14 +1,20 @@
-<div class="nav">
-  <ul>
-    <li><a>Albums</a></li>
-    <li *ngFor="let product of products">
-      <a routerLink="/product/{{ product.id }}" routerLinkActive="active">{{
-        product.albumName
-      }}</a>
-      <!--<a [routerLink]="`/product/${product.id}`" routerLinkActive="active">{{product.albumName}}</a>-->
-    </li>
-  </ul>
+<div class="detail-home">
+  <div class="detail-product-home" *ngFor="let product of products  let i = index" [attr.data-index]="i">
+    <div class="title-home">
+      <a routerLink="/product/{{product.id}}" routerLinkActive="active">
+        <div class="description-home">
+          <div class="detail-img-home">
+            <img src="{{albumInfo[i].album.coverImage}}" alt="product image" />
+          </div>
+          <div class="detail-album-home">
+            <p class="detail-p-home">{{albumInfo[i].album.name}}</p>
+            <p class="detail-p-home">{{albumInfo[i].artist}}</p>
+            <p class="detail-p-home">{{albumInfo[i].album.releaseDate}}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
-<div>
-  <app-product-page></app-product-page>
-</div>
+
+

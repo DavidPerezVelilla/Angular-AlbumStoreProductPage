@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Album } from '../album'
+import { Component, OnChanges, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-product-page',
@@ -8,9 +8,12 @@ import { Album } from '../album'
 })
 export class ProductPageComponent implements OnInit {
 
+
   constructor() { }
 
   ngOnInit() {
+
+
   }
 
 }

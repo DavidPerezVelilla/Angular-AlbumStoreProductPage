@@ -1,25 +1,25 @@
 .description {
   display: block;
 
-  & .detail-img {
+  .detail-img {
     width: 150px;
     float: left;
   }
 
-  & .detail-album {
+  .detail-album {
     display: inline;
     margin-left: 50px;
     float: left;
 
-    & .detail-p {
+  .detail-p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 20px;
     }
   }
 }
 
 .detail {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 35%;
 
   .detail-product {
     display: flex;
@@ -30,19 +30,19 @@
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
     border-radius: 15px;
 
-    & .title {
+    .title {
       padding: 10px 10px 10px 10px;
       background: rgb(197, 139, 126);
     }
 
-    &.body {
+    .body {
       padding: 10px;
     }
   }
 }
 
 .detail-tracklisting {
-  & .table {
+  .table {
     letter-spacing: 1px;
     padding: 20px 20px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;

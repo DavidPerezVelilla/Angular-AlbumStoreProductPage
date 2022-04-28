@@ -1,7 +1,18 @@
-<div class="nav">
-  <ul>
-    <li><a routerLink="" routerLinkActive="active">Album Store</a></li>
-  </ul>
+<div class="navbar">
+  <a routerLink="" routerLinkActive="active">Album Store</a>
+  <div class="dropdown">
+    <button class="dropbtn">
+      Albums
+    </button>
+    <div class="dropdown-content">
+      <li *ngFor="let product of products">
+        <a routerLink="/product/{{ product.id }}" routerLinkActive="active"  (click)="refresh()">{{
+          product.albumName
+        }}</a>
+        <!--<a [routerLink]="`/product/${product.id}`" routerLinkActive="active">{{product.albumName}}</a>-->
+      </li>
+    </div>
+  </div>
 </div>
 <router-outlet></router-outlet>
 

@@ -1,10 +1,11 @@
 <div class="description">
   <div class="detail-img">
-    <img src="{{albumInfo?.album.coverImage}}" alt="product image" />
+    <img src="{{albumInfo.album.coverImage}}" alt="product image" />
+
   </div>
-  <div class="detail-album">
-    <p class="detail-p">{{albumInfo?.album.name}}</p>
-    <p class="detail-p">{{albumInfo?.artist}}</p>
-    <p class="detail-p">{{albumInfo?.album.releaseDate}}</p>
+  <div class="detail-album">{{albumInfo}}
+    <p class="detail-p">{{albumInfo.album.name}}</p>
+    <p class="detail-p">{{albumInfo.artist}}</p>
+    <p class="detail-p">{{albumInfo.album.releaseDate}}</p>
   </div>
 </div>
